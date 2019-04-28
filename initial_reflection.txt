@@ -1,0 +1,31 @@
+[10044] [   INFO] going to load a JVM...
+[10044] [VERBOSE] Entering xmog_jvm_loader::loadInProcess(bool)()
+[10044] [VERBOSE] Entering xmog_jvm_loader::usePreloadedJvm()()
+[10044] [VERBOSE] getJvmPath()="C:\IBM\InformationServer\jdk32\jre\bin\j9vm\jvm.dll"
+[10044] [   INFO] loaded configured JVM (C:\IBM\InformationServer\jdk32\jre\bin\j9vm\jvm.dll) to check for already loaded JVMs
+[10044] [   INFO] found JNI_GetCreatedJVMs in the configured JVM
+[10044] [   INFO] did not find a preloaded JVM
+[10044] [VERBOSE] Leaving xmog_jvm_loader::usePreloadedJvm()()
+[10044] [VERBOSE] getJniVersion()=10002
+[10044] [VERBOSE] getTracing(1)=4
+[10044] [   INFO] 
+  JVM Init Args
+  =============
+  JNI Version: 0x10002
+  IgnoreUnrec: true
+    -Xms64m
+    -Xmx384m
+    -Djava.class.path=C:\IBM\InformationServer\ASBNode\conf;C:\IBM\InformationServer\ASBNode\eclipse\plugins\com.ibm.iis.client
+    -Djava.ext.dirs=C:\IBM\InformationServer\jdk32\jre\lib\ext;C:\IBM\InformationServer\ASBNode\lib\java;C:\IBM\InformationServer\ASBNode\eclipse\plugins;C:\IBM\InformationServer\ASBNode\eclipse\plugins\com.ibm.iis.client
+    -DentityExpansionLimit=4194304
+    -Dcom.ibm.tools.attach.enable=no
+    -Xss1m
+    -Duser.timezone=GMT-04:00
+
+[10044] [  ERROR] Unknown error when trying to load JVM
+[10044] [VERBOSE] Leaving xmog_jvm_loader::loadInProcess(bool)()
+[10044] [  ERROR] couldn't load a JVM or connect to one
+[10044] [  ERROR] framework exception about to be thrown: code=-1025, msg='Can't load Jvm or connect to one'
+[10044] [VERBOSE] Leaving xmog_jvm_loader::load(bool)()
+[10044] [   INFO] xmog_jvm_loader::atexit_call()
+[10044] [VERBOSE] getNoshutdownProcessing()=false
